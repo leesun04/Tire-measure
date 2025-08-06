@@ -1,0 +1,8 @@
+path:  # 여기는 너의 루트 폴더 경로
+train: images/train
+val: images/val
+
+kpt_shape: [4, 3]  # 타이어의 상하 좌우 키포인트 = 4개, (x, y, visible)
+
+names:
+  0: tire
